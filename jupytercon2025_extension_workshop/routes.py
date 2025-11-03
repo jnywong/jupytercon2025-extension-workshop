@@ -12,7 +12,7 @@ class HelloRouteHandler(APIHandler):
     def get(self):
         self.finish(json.dumps({
             "data": (
-                "Hello, world!"
+                "Hello, world! I am developing a new extension at JupyterCon 2025 woohoo. "
                 " This is the '/jupytercon2025-extension-workshop/hello' endpoint."
                 " Try visiting me in your browser!"
             ),
